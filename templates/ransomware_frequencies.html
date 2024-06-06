@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ransomware Group Frequencies</title>
+    <script>
+        function sortData(sortBy) {
+            var url = window.location.href.split('?')[0] + '?sort=' + sortBy;
+            window.location.href = url;
+        }
+    </script>
+</head>
+<body>
+    <h1>Ransomware Group Frequencies</h1>
+    <button onclick="sortData('frequency_desc')">Sort by Frequency (Most to Least)</button>
+    <button onclick="sortData('frequency_asc')">Sort by Frequency (Least to Most)</button>
+    <ul>
+        {% for group, frequency in groups %}
+            <li>{{ group }}: {{ frequency }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
