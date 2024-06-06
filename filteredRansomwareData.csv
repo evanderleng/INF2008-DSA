@@ -1,0 +1,171 @@
+Year,Ransomware_Group,Frequency
+2015,Cerber,5
+2015,CryptoLocker,1
+2015,CryptoWall,2
+2015,Cryptomix,1
+2015,Locky,2
+2015,Magniber,1
+2015,Netwalker (MailTo),1
+2015,Pony,1
+2015,Princess Locker,1
+2015,TeslaCrypt,1
+2016,Bad Rabbit,1
+2016,Cerber,5
+2016,Conti,1
+2016,CryptoWall,1
+2016,Mole,1
+2016,Reveton,1
+2016,TeslaCrypt,3
+2017,Bettercallsaul,1
+2017,BlackCat (ALPHV),1
+2017,Cerber,5
+2017,Conti,1
+2017,CrypBoss,1
+2017,CrypWall,1
+2017,Cryptesla,1
+2017,CryptoWall,1
+2017,ITLock,1
+2017,JuicyLemon,1
+2017,Kovter,1
+2017,Locky,2
+2017,Magniber,1
+2017,Matrix,2
+2017,Mole,1
+2017,Nemty,1
+2017,Princess Locker,1
+2017,PrincessLocker,1
+2017,Reveton,1
+2017,Ryuk,1
+2017,Stop,2
+2017,TeslaCrypt,2
+2017,TorrentLocker,1
+2017,Trigona,1
+2018,Bad Rabbit,1
+2018,Black Kingdom,1
+2018,Cerber,4
+2018,Conti,7
+2018,Karmen,2
+2018,Nefilim (Nemty),1
+2018,PEC 2017,1
+2018,Petya,4
+2018,Ryuk,5
+2018,Satan,1
+2018,Stop,1
+2018,Waltrix,1
+2018,WannaCry,4
+2018,WannaCry ,1
+2018,WannaCry    ,1
+2019,AvosLocker,1
+2019,Bad Rabbit,3
+2019,BigBossHorse,1
+2019,CCryptor,1
+2019,Conti,1
+2019,DarkRadiation,1
+2019,DearCry,1
+2019,Decryptiomega,1
+2019,GandCrab,3
+2019,Globe,1
+2019,Hive,1
+2019,Jigsaw,1
+2019,Locky,1
+2019,Lokibot,1
+2019,Maui,1
+2019,NamPoHyu,1
+2019,Netwalker (MailTo),1
+2019,OnyxLocker,1
+2019,Pay2Key,1
+2019,Petya,3
+2019,Phobos,1
+2019,QNAPCrypt,4
+2019,Qlocker,2
+2019,RAR1Ransom,1
+2019,Ragnar Locker,1
+2019,RagnarLocker,1
+2019,Robinhood,1
+2019,Ryuk,3
+2019,Satan,3
+2019,Stave,1
+2019,Stop,2
+2019,StorageCrypter,1
+2019,UEFI,2
+2019,WannaCry,4
+2019,Zemblax,1
+2019,Zyklon,1
+2019,eCh0raix,1
+2020,AvosLocker,1
+2020,BlackByte,4
+2020,Conti,3
+2020,Cring,1
+2020,DarkRadiation,1
+2020,Darkside,1
+2020,Egregor,1
+2020,IsaacWiper,1
+2020,LockBit,1
+2020,Maze,1
+2020,Muhstik,2
+2020,Nemesis Kitten,1
+2020,NextCry,1
+2020,Pay2Key,2
+2020,REvil (Sodinokibi),1
+2020,Robinhood,1
+2020,Ryuk,4
+2020,Stave,1
+2020,Stop,4
+2020,eCh0raix,3
+2021,Babuk,1
+2021,Black Kingdom,2
+2021,Buran,4
+2021,Conti,10
+2021,CryptoMix,1
+2021,DarkSide,1
+2021,DoppelPaymer,1
+2021,Egregor,4
+2021,GandCrab,2
+2021,Hello (WickrMe),1
+2021,Hermes,1
+2021,KrakenCryptor,1
+2021,Magniber,1
+2021,Maze,7
+2021,Nefilim (Nemty),2
+2021,Netwalker (MailTo),2
+2021,NextCry,1
+2021,Pay2Key,2
+2021,Petya,1
+2021,Prolock,1
+2021,REvil (Sodinokibi),5
+2021,Redkeeper,1
+2021,Ryuk,6
+2021,Sekhmet,1
+2021,Stave,1
+2021,Stop,6
+2021,Unidentified,1
+2021,WannaCry,1
+2022,AKO,1
+2022,Bitpaymer,1
+2022,BlackByte,1
+2022,Buran,1
+2022,Clop,1
+2022,Conti,8
+2022,Cr1ptT0r,1
+2022,Cyborg,1
+2022,DarkRadiation,1
+2022,DoppelPaymer,1
+2022,Egregor,2
+2022,Magniber,1
+2022,Maze,1
+2022,NOTROBIN,1
+2022,Nefilim (Nemty),1
+2022,Netwalker (MailTo),2
+2022,Pay2Key,2
+2022,REvil (Sodinokibi),3
+2022,Ragnorok,1
+2023,ASN1,1
+2023,Buran,1
+2023,Darkside,1
+2023,ESXiArgs,1
+2023,GandCrab,1
+2023,REvil (Sodinokibi),2
+2023,Ryuk,3
+2023,Unidentified,1
+2023,Vated Loader,1
+2023,eCh0raix,3
