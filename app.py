@@ -61,7 +61,7 @@ def top3Groups():
 @app.route('/industriesOverYears') 
 def industriesOverYears(): 
 	# Create the Plotly figure
-    fig = px.line(data_melted, x='Year', y='Percentage', color='Industry', title='Ransomware Attacks Over Years By Industries')
+    fig = px.line(data_melted, x='Year', y='Percentage', color='Industry', title='Targeted Industries By Year')
     fig.update_layout(autosize=True)
     # Rename axis data names (remove % sign)
     fig.update_xaxes(tickvals=['2020 %', '2021 %', '2022 %', '2023 %', '2024 %'], ticktext=['2020', '2021', '2022', '2023', '2024'])
@@ -74,7 +74,7 @@ def industriesOverYears():
 @app.route('/top3IndustriesOverYears')
 def top3IndustriesOverYears():
     # Create the Plotly figure
-    fig = px.bar(top_3_per_year, x='Year', y='Percentage', color='Industry', title='Top 3 Ransomware Attacks Over Years By Industries')
+    fig = px.bar(top_3_per_year, x='Year', y='Percentage', color='Industry', title='Top 3 Targeted Industries By Year')
     fig.update_layout(autosize=True, bargap=0.6)
     # Rename axis data names (remove % sign)
     fig.update_xaxes(tickvals=['2020 %', '2021 %', '2022 %', '2023 %', '2024 %'], ticktext=['2020', '2021', '2022', '2023', '2024'])
