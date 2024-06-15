@@ -1,12 +1,15 @@
-from flask import Flask, render_template, request
-import pandas as pd
+from flask import * 
+import plotly.express as px
 import plotly.graph_objects as go
 import plotly.io as pio
+import pandas as pd
 
+app = Flask(__name__) 
+
+#GET RANSOMWARE GROUPS
 # Load the data
 ransomware_group_counts = pd.read_csv('filteredRansomwareData.csv')
 top_groups_by_year = pd.read_csv('topThreeGroupsPerYear.csv')
-
 # Create the Plotly graphs
 fig_all = go.Figure()
 for group in ransomware_group_counts['Ransomware_Group'].unique():
@@ -20,18 +23,66 @@ for group in top_groups_by_year['Ransomware_Group'].unique():
     fig_top3.add_trace(go.Scatter(x=group_data['Year'], y=group_data['Frequency'], mode='lines+markers', name=group))
 fig_top3.update_layout(title='Top 3 Ransomware Groups Activity Per Year', xaxis_title='Year', yaxis_title='Frequency', legend_title='Ransomware Groups')
 
-# Flask app to serve the plots
-app = Flask(__name__)
 
-@app.route('/')
-def plot_all():
+# GET RANSOMWARE ATTTACK BY INDUSTRIES
+# Load the data
+df = pd.read_excel('attacksByIndustry.xlsx', sheet_name='Sheet1')
+# To remove "total" from data as it is only to calculate percentage
+df = df[df['Industry'] != 'Total']
+# Reshape the data for plotting
+data_melted = pd.melt(df, id_vars=['Industry'], value_vars=['2020 %', '2021 %', '2022 %', '2023 %', '2024 %'],
+var_name='Year', value_name='Percentage')
+# Reshape the data for plotting
+data_melted = pd.melt(df, id_vars=['Industry'], value_vars=['2020 %', '2021 %', '2022 %', '2023 %', '2024 %'],
+var_name='Year', value_name='Percentage')
+# Remove '%' and convert 'Year' to numeric
+data_melted['Year'] = data_melted['Year'].str.replace(' %', '').astype(int)
+# Get the top 3 values of each year
+top_3_per_year = data_melted.groupby('Year').apply(lambda x: x.nlargest(3, 'Percentage')).reset_index(drop=True)
+
+# MAIN PAGE
+@app.route('/') 
+def index(): 
+	return render_template('index.html') 
+
+# RANSOMWARE GROUPS BY NUMBER OF ATTACKS GRAPHS
+@app.route('/ransomwareGroups')
+def ransomwareGroups():
     graph_html = pio.to_html(fig_all, full_html=False)
-    return render_template("graph.html", plot=graph_html)
+    return render_template('groups.html', plot=graph_html)
 
-@app.route('/top3')
-def plot_top3():
+@app.route('/top3Groups')
+def top3Groups():
     graph_html = pio.to_html(fig_top3, full_html=False)
-    return render_template("graph.html", plot=graph_html)
+    return render_template('groups.html', plot=graph_html)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
+# RANSOMWARE ATTACKS ON DIFFERENT INDUSTRIES GRAPHS
+@app.route('/industriesOverYears') 
+def industriesOverYears(): 
+	# Create the Plotly figure
+    fig = px.line(data_melted, x='Year', y='Percentage', color='Industry', title='Ransomware Attacks Over Years By Industries')
+    fig.update_layout(autosize=True)
+    # Rename axis data names (remove % sign)
+    fig.update_xaxes(tickvals=['2020 %', '2021 %', '2022 %', '2023 %', '2024 %'], ticktext=['2020', '2021', '2022', '2023', '2024'])
+    # Convert Plotly figure to HTML
+    graph_html = fig.to_html(full_html=False)
+
+    # Render the HTML with the Plotly graph
+    return render_template('industries.html', graph_html=graph_html)
+
+@app.route('/top3IndustriesOverYears')
+def top3IndustriesOverYears():
+    # Create the Plotly figure
+    fig = px.bar(top_3_per_year, x='Year', y='Percentage', color='Industry', title='Top 3 Ransomware Attacks Over Years By Industries')
+    fig.update_layout(autosize=True, bargap=0.6)
+    # Rename axis data names (remove % sign)
+    fig.update_xaxes(tickvals=['2020 %', '2021 %', '2022 %', '2023 %', '2024 %'], ticktext=['2020', '2021', '2022', '2023', '2024'])
+    # Convert Plotly figure to HTML
+    graph_html = fig.to_html(full_html=False)
+
+    # Render the HTML with the Plotly graph
+    return render_template('industries.html', graph_html=graph_html)
+
+if __name__ == '__main__': 
+	app.run(debug=True)
