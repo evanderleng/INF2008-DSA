@@ -1,0 +1,77 @@
+{% extends "nav.html" %} {% block content %}
+<header>
+  <h1>Ransomware Analysis Report</h1>
+  <p>
+    This report provides an analysis of ransomware activities, focusing on
+    vulnerabilities, attack factors, targeted industries, active ransomware
+    gangs, and trend comparisons before and after 2023.
+  </p>
+</header>
+<main>
+  <section class="section">
+    <h2>
+      1. Latest Vulnerabilities Abused by Ransomware Gangs (2015 - Current)
+    </h2>
+    <p>
+      This section details the latest vulnerabilities with CVE numbers exploited
+      by ransomware gangs from 2015 to the present day. It includes a comparison
+      with other available ransomware CVE lists on the Internet.
+    </p>
+    <p><!--ADD LINKS HERE--></p> 
+   <!--ADD MORE P P IF NEEDED-->
+  </section>
+
+  <section class="section">
+    <h2>2. Ransomware Attack Factors</h2>
+    <p>
+      This section lists the common ransomware attack factors, sorted from the
+      most common to the least common.
+    </p>
+    <p><!--ADD LINKS HERE--></p> 
+   <!--ADD MORE P P IF NEEDED-->
+  </section>
+
+  <section class="section">
+    <h2>3. Most Targeted Industries Globally</h2>
+    <p>
+      This section provides information on the industries that are most targeted
+      by ransomware attacks globally.
+    </p>
+    <p>
+      <a href="{{url_for('industriesOverYears')}}"
+        >Ransomware Attacks On Industries</a
+      >
+    </p>
+    <p>
+      <a href="{{url_for('top3IndustriesOverYears')}}"
+        >Top 3 Industries Targeted By Year</a
+      >
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>4. Top Active Ransomware Gangs</h2>
+    <p>This section lists the top active ransomware gangs.</p>
+    <p>
+      <a href="{{url_for('ransomwareGroups')}}"
+        >Ransomware Groups By Activities</a
+      >
+    </p>
+    <p>
+      <a href="{{url_for('top3Groups')}}"
+        >Top 3 ransomware Groups By Activities</a
+      >
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>5. Ransomware Attack Trend Comparison (Before 2023 vs After 2023)</h2>
+    <p>
+      This section provides a comparison of ransomware attacks, showing the
+      trend changes before and after 2023.
+    </p>
+    <p><!--ADD LINKS HERE--></p> 
+   <!--ADD MORE P P IF NEEDED-->
+  </section>
+</main>
+{% endblock %}
