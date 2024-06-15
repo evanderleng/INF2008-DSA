@@ -6,7 +6,7 @@ import pandas as pd
 
 app = Flask(__name__) 
 
-#GET RANSOMWARE GROUPS
+# GET RANSOMWARE GROUPS
 # Load the data
 ransomware_group_counts = pd.read_csv('filteredRansomwareData.csv')
 top_groups_by_year = pd.read_csv('topThreeGroupsPerYear.csv')
