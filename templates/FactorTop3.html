@@ -1,0 +1,88 @@
+{% extends "nav.html" %}
+
+{% block content %}
+<div>{{ plot|safe }}</div>
+<style type="text/css">
+    .tg {
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .tg td {
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        overflow: hidden;
+        padding: 10px 5px;
+        word-break: normal;
+    }
+
+    .tg th {
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        overflow: hidden;
+        padding: 10px 5px;
+        word-break: normal;
+    }
+
+    .tg .tg-baqh {
+        text-align: center;
+        vertical-align: top
+    }
+</style>
+<table class="tg">
+    <thead>
+        <tr>
+            <th class="tg-baqh" colspan="2">Vector</th>
+            <th class="tg-baqh" colspan="2">Complexity</th>
+            <th class="tg-baqh" colspan="2">Privilege Required</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="tg-baqh">Value</td>
+            <td class="tg-baqh">Meaning</td>
+            <td class="tg-baqh">Value</td>
+            <td class="tg-baqh">Meaning</td>
+            <td class="tg-baqh">Value</td>
+            <td class="tg-baqh">Meaning</td>
+        </tr>
+        <tr>
+            <td class="tg-baqh">Local</td>
+            <td class="tg-baqh">Requires attacker to have physical access or remote access to infect the
+                device.<br>Malware cannot spread via the connected network.</td>
+            <td class="tg-baqh">Low</td>
+            <td class="tg-baqh" rowspan="3">States the required level of planning and/or execution complexity of the
+                malware,<br> low being requiring little to no complexity allowing for attacks to be performed at will,<br>
+                high being requiring significant time to plan and execute the attacks, often needing to meet certain
+                complex conditions.</td>
+            <td class="tg-baqh">Low</td>
+            <td class="tg-baqh">Attacks require little to no authentication bypass</td>
+        </tr>
+        <tr>
+            <td class="tg-baqh">Adjacent Network</td>
+            <td class="tg-baqh">Malware must be launched from the same shared physical(bluetooth) or logical (subnet)
+                network</td>
+            <td class="tg-baqh">Medium</td>
+            <td class="tg-baqh">Medium</td>
+            <td class="tg-baqh">Attacks required to bypass simple authentication techiques</td>
+        </tr>
+        <tr>
+            <td class="tg-baqh">Network</td>
+            <td class="tg-baqh">Malware can be launched from external networks (internet)</td>
+            <td class="tg-baqh">High</td>
+            <td class="tg-baqh">High</td>
+            <td class="tg-baqh">Attacks required to bypass complex authentication techniques such as but not limited to
+                2FA, OTP</td>
+        </tr>
+    </tbody>
+</table>
+{% endblock %}

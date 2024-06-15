@@ -1,0 +1,296 @@
+,CVE ID,Ransomware Group Association,Vector String,Base Severity,Year,Vector,Complexity,Privilege required
+0,CVE-2015-0311,"Cerber, CryptoLocker, CryptoWall",AV:N/AC:L/Au:N/C:C/I:C/A:C,HIGH,2015,Network,Low,Low
+1,CVE-2015-0313,Cerber,AV:N/AC:L/Au:N/C:C/I:C/A:C,HIGH,2015,Network,Low,Low
+2,CVE-2015-0359,"Cerber, Cryptomix, Magniber, Reveton",AV:N/AC:L/Au:N/C:C/I:C/A:C,HIGH,2015,Network,Low,Low
+3,CVE-2015-1701,"Locky, Netwalker (MailTo)",AV:L/AC:L/Au:N/C:C/I:C/A:C,HIGH,2015,Local,Low,Low
+4,CVE-2015-2419,"Cerber, Pony, Princess Locker, TeslaCrypt",AV:N/AC:M/Au:N/C:C/I:C/A:C,HIGH,2015,Network,Medium,Low
+5,CVE-2015-2426,"Cerber, CryptoWall, Locky, TeslaCrypt",AV:N/AC:M/Au:N/C:C/I:C/A:C,HIGH,2015,Network,Medium,Low
+6,CVE-2015-2546,Conti,AV:L/AC:M/Au:N/C:C/I:C/A:C,MEDIUM,2015,Local,Medium,Low
+7,CVE-2016-4117,Mole,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2016,Network,Low,Low
+8,CVE-2015-3090,Cerber,AV:N/AC:L/Au:N/C:C/I:C/A:C,HIGH,2015,Network,Low,Low
+9,CVE-2015-3104,Cerber,AV:N/AC:L/Au:N/C:C/I:C/A:C,HIGH,2015,Network,Low,Low
+10,CVE-2015-3113,Cerber,AV:N/AC:L/Au:N/C:C/I:C/A:C,HIGH,2015,Network,Low,Low
+11,CVE-2015-5119,"Cerber, CryptoWall",AV:N/AC:L/Au:N/C:C/I:C/A:C,HIGH,2015,Network,Low,Low
+12,CVE-2015-5122,TeslaCrypt,AV:N/AC:L/Au:N/C:C/I:C/A:C,HIGH,2015,Network,Low,Low
+13,CVE-2015-5560,TeslaCrypt,AV:N/AC:L/Au:N/C:C/I:C/A:C,HIGH,2015,Network,Low,Low
+14,CVE-2015-7465,Cerber,CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2015,Network,Low,Low
+15,CVE-2015-7645,"Bad Rabbit, Cerber, CryptoWall",AV:N/AC:M/Au:N/C:C/I:C/A:C,HIGH,2015,Network,Medium,Low
+16,CVE-2015-8651,"Cerber, Matrix, PrincessLocker, TeslaCrypt",CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2015,Network,Low,Low
+17,CVE-2016-0034,TeslaCrypt,CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2016,Network,Low,Low
+18,CVE-2016-0099,"BlackCat (ALPHV), Trigona",CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2016,Local,Low,Medium
+19,CVE-2016-0189,"Cerber, ITLock, Locky, Magniber, Matrix, Mole, Nemty, Princess Locker",CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2016,Network,High,Low
+20,CVE-2016-0736,Ryuk,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2016,Network,Low,Low
+21,CVE-2016-1001,Cerber,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2016,Network,Low,Low
+22,CVE-2016-10057,Stop,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2016,Local,Low,Low
+23,CVE-2016-1019,"Cerber, Locky",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2016,Network,Low,Low
+24,CVE-2016-10401,Stop,CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2016,Network,Low,Medium
+25,CVE-2016-3309,Conti,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2016,Local,Low,Medium
+26,CVE-2016-3351,"Bettercallsaul, CrypBoss, Cryptesla, CrypWall, JuicyLemon, Kovter, Reveton, TorrentLocker, Waltrix",CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N,LOW,2016,Network,High,Low
+27,CVE-2016-7200,Cerber,CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2016,Network,High,Low
+28,CVE-2016-7201,Cerber,CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2016,Network,High,Low
+29,CVE-2017-0037,Cerber,CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,HIGH,2017,Network,High,Low
+30,CVE-2017-0101,Conti,CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2017,Local,Low,Low
+31,CVE-2017-0143,"Conti, Petya, Ryuk, Satan, WannaCry",CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,HIGH,2017,Network,High,Low
+32,CVE-2017-0144,"Conti, Petya, Ryuk, Stop, WannaCry",CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,HIGH,2017,Network,High,Low
+33,CVE-2017-0145,"Bad Rabbit, Conti, Petya, Ryuk, WannaCry    ",CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,HIGH,2017,Network,High,Low
+34,CVE-2017-0146,"Conti, Ryuk, WannaCry",CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,HIGH,2017,Network,High,Low
+35,CVE-2017-0147,"Black Kingdom, Conti, Ryuk, WannaCry",CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N,MEDIUM,2017,Network,High,Low
+36,CVE-2017-0148,"Conti, WannaCry ",CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,HIGH,2017,Network,High,Low
+37,CVE-2017-0199,"Cerber, Karmen, PEC 2017, Petya, Karmen",CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2017,Local,Low,Low
+38,CVE-2017-0213,"Nefilim (Nemty), Netwalker (MailTo), Petya, Phobos, Ragnar Locker, WannaCry",CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N,MEDIUM,2017,Local,High,Medium
+39,CVE-2017-1000253,"Conti, DarkRadiation, Pay2Key",CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2017,Local,Low,Medium
+40,CVE-2017-10271,"GandCrab, QNAPCrypt, Maui, Satan, Stop",CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,HIGH,2017,Network,Low,Low
+41,CVE-2017-11882,"CCryptor, Globe, Jigsaw, Locky, Lokibot, OnyxLocker, Zemblax, Zyklon",CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2017,Local,Low,Low
+42,CVE-2017-12149,"Satan, Stop",CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2017,Network,Low,Low
+43,CVE-2017-13077,Bad Rabbit,CVSS:3.0/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N,MEDIUM,2017,Ajacent network,High,Low
+44,CVE-2017-13082,Bad Rabbit,CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N,HIGH,2017,Ajacent network,Low,Low
+45,CVE-2017-15302,Robinhood,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2017,Local,Low,Medium
+46,CVE-2017-15361,Bad Rabbit,CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N,MEDIUM,2017,Network,High,Low
+47,CVE-2017-18362,"GandCrab, Qlocker, QNAPCrypt, Ryuk",CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2017,Network,Low,Low
+48,CVE-2017-3197,UEFI,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2017,Network,Low,Low
+49,CVE-2017-3198,UEFI,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2017,Network,Low,Low
+50,CVE-2017-3622,WannaCry,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2017,Local,Low,Medium
+51,CVE-2017-3623,WannaCry,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H,CRITICAL,2017,Network,Low,Low
+52,CVE-2017-5638,"DearCry, Stave",CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H,CRITICAL,2017,Network,Low,Low
+53,CVE-2017-6884,"GandCrab, Qlocker, QNAPCrypt, Ryuk",CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2017,Network,Low,Medium
+54,CVE-2017-7494,"Decryptiomega, eCh0raix, QNAPCrypt, NamPoHyu, StorageCrypter",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2017,Network,Low,Low
+55,CVE-2017-8046,"AvosLocker, BigBossHorse, RAR1Ransom, Satan",CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2017,Network,Low,Low
+56,CVE-2017-8464,Petya,CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2017,Network,Low,Low
+57,CVE-2017-8543,Petya,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2017,Network,Low,Low
+58,CVE-2017-8620,WannaCry,CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,HIGH,2017,Network,High,Low
+59,CVE-2017-9798,Ryuk,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2017,Network,Low,Low
+60,CVE-2017-9833,Hive,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2017,Network,Low,Low
+61,CVE-2018-0802,RagnarLocker,CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2018,Local,Low,Low
+62,CVE-2018-0986,Stop,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2018,Network,Low,Low
+63,CVE-2018-1000136,Stop,CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,HIGH,2018,Network,High,Low
+64,CVE-2018-10115,Stop,CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2018,Local,Low,Low
+65,CVE-2018-10561,Muhstik,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2018,Network,Low,Low
+66,CVE-2018-10562,Muhstik,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2018,Network,Low,Low
+67,CVE-2018-1156,Ryuk,CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2018,Network,Low,Medium
+68,CVE-2018-11776,Stave,CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,HIGH,2018,Network,High,Low
+69,CVE-2018-12808,"Conti, Ryuk",CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2018,Network,Low,Low
+70,CVE-2018-13374,"Conti, DarkRadiation, Pay2Key",CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N,MEDIUM,2018,Network,Low,Medium
+71,CVE-2018-13379,"Conti, Cring, Darkside, IsaacWiper, LockBit, Nemesis Kitten, Pay2Key, REvil (Sodinokibi)",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2018,Network,Low,Low
+72,CVE-2018-14847,Ryuk,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N,CRITICAL,2018,Network,Low,Low
+73,CVE-2018-15982,"Egregor, Maze",CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2018,Network,Low,Low
+74,CVE-2018-19320,"AvosLocker, BlackByte, Robinhood",CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2018,Local,Low,Medium
+75,CVE-2018-19321,BlackByte,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2018,Local,Low,Medium
+76,CVE-2018-19322,BlackByte,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2018,Local,Low,Medium
+77,CVE-2018-19323,BlackByte,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2018,Network,Low,Low
+78,CVE-2018-19518,Ryuk,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2018,Network,High,Medium
+79,CVE-2018-19943,eCh0raix,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N,MEDIUM,2018,Network,Low,Medium
+80,CVE-2018-19949,"eCh0raix, NextCry",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2018,Network,Low,Low
+81,CVE-2018-19953,eCh0raix,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N,MEDIUM,2018,Network,Low,Low
+82,CVE-2018-20250,Stop,CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2018,Local,Low,Low
+83,CVE-2018-20685,Ryuk,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N,MEDIUM,2018,Network,High,Low
+84,CVE-2018-3639,Stop,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N,MEDIUM,2018,Local,Low,Medium
+85,CVE-2018-4878,"Egregor, Hermes, Maze",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2018,Network,Low,Low
+86,CVE-2018-5383,Stop,CVSS:3.0/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N,MEDIUM,2018,Ajacent network,High,Low
+87,CVE-2018-5391,"Babuk, DarkSide, Conti, CryptoMix, Ryuk, Stop",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H,HIGH,2018,Network,Low,Low
+88,CVE-2018-6789,Stop,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2018,Network,Low,Low
+89,CVE-2018-7602,Stop,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2018,Network,Low,Low
+90,CVE-2018-8120,"Conti, GandCrab",CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2018,Local,High,Medium
+91,CVE-2018-8174,"Buran, Egregor, KrakenCryptor, Magniber, Maze",CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2018,Network,High,Low
+92,CVE-2018-8389,Ryuk,CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2018,Network,High,Low
+93,CVE-2018-8440,GandCrab,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2018,Local,Low,Medium
+94,CVE-2018-8453,"REvil (Sodinokibi), Ryuk",CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2018,Local,Low,Medium
+95,CVE-2018-9995,Stop,CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2018,Network,Low,Low
+96,CVE-2019-0211,"Ryuk, Stave",CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+97,CVE-2019-0543,Conti,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+98,CVE-2019-0604,Hello (WickrMe),CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+99,CVE-2019-0708,"DoppelPaymer, Redkeeper",CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+100,CVE-2019-0803,"Petya, WannaCry",CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+101,CVE-2019-0841,Conti,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+102,CVE-2019-1064,Conti,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+103,CVE-2019-1069,"Conti, Ryuk",CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+104,CVE-2019-11043,NextCry,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+105,CVE-2019-1108,"Egregor, Maze, REvil (Sodinokibi)",CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N,MEDIUM,2019,Network,Low,Medium
+106,CVE-2019-1129,Conti,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+107,CVE-2019-1130,Conti,CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+108,CVE-2019-11510,"Black Kingdom, Conti, Maze, Netwalker (MailTo), Pay2Key, REvil (Sodinokibi)",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+109,CVE-2019-11539,"Black Kingdom, Maze, Netwalker (MailTo), Pay2Key, REvil (Sodinokibi), Sekhmet",CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Network,Low,High
+110,CVE-2019-11634,Nefilim (Nemty),CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+111,CVE-2019-1183,Buran,CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2019,Network,Low,Low
+112,CVE-2019-1194,Buran,CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2019,Network,High,Low
+113,CVE-2019-1208,Buran,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2019,Network,High,Low
+114,CVE-2019-1215,Conti,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+115,CVE-2019-1224,"Egregor, Maze, REvil (Sodinokibi)",CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2019,Network,Low,Low
+116,CVE-2019-1225,"Egregor, Maze, REvil (Sodinokibi)",CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2019,Network,Low,Low
+117,CVE-2019-1236,Buran,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2019,Network,High,Low
+118,CVE-2019-1239,Buran,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2019,Network,High,Low
+119,CVE-2019-1253,Conti,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+120,CVE-2019-1315,Conti,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+121,CVE-2019-1322,Conti,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+122,CVE-2019-13608,Nefilim (Nemty),CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2019,Network,Low,Low
+123,CVE-2019-1367,Magniber,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2019,Network,High,Low
+124,CVE-2019-1385,Conti,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+125,CVE-2019-1388,Conti,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+126,CVE-2019-1405,Conti,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+127,CVE-2019-1458,"Conti, Netwalker (MailTo)",CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+128,CVE-2019-1489,"Egregor, Maze",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2019,Network,Low,Low
+129,CVE-2019-1579,"Conti, DarkRadiation, Pay2Key",CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Network,High,Low
+130,CVE-2019-16057,Cr1ptT0r,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+131,CVE-2019-16098,BlackByte,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Local,Low,Medium
+132,CVE-2019-16647,Bitpaymer,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,HIGH,2019,Network,Low,High
+133,CVE-2019-16920,Cyborg,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+134,CVE-2019-18935,"Netwalker (MailTo), REvil (Sodinokibi)",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+135,CVE-2019-19781,"AKO, Clop, DoppelPaymer, Nefilim (Nemty), NOTROBIN, Pay2Key, Ragnorok, REvil (Sodinokibi), Vated Loader",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+136,CVE-2019-2725,REvil (Sodinokibi),CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+137,CVE-2019-2729,REvil (Sodinokibi),CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+138,CVE-2019-3396,GandCrab,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+139,CVE-2019-5039,ASN1,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2019,Network,Low,Low
+140,CVE-2019-5544,"Darkside, ESXiArgs",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+141,CVE-2019-5591,Unidentified,CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,MEDIUM,2019,Ajacent network,Low,Low
+142,CVE-2019-6109,Ryuk,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N,MEDIUM,2019,Network,High,Low
+143,CVE-2019-6110,Ryuk,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N,MEDIUM,2019,Network,High,Low
+144,CVE-2019-6111,Ryuk,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N,MEDIUM,2019,Network,High,Low
+145,CVE-2019-7192,eCh0raix,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+146,CVE-2019-7193,eCh0raix,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+147,CVE-2019-7194,eCh0raix,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+148,CVE-2019-7195,eCh0raix,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2019,Network,Low,Low
+149,CVE-2019-7481,"BlackCat (ALPHV), HelloKitty (FiveHands)",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2019,Network,Low,Low
+150,CVE-2020-0601,"BigBossHorse, Cerber, Conti, Vice Society",CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N,HIGH,2020,Network,Low,Low
+151,CVE-2020-0609,"Conti, Egregor, Maze, REvil (Sodinokibi)",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2020,Network,Low,Low
+152,CVE-2020-0610,"Egregor, Maze, REvil (Sodinokibi)",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2020,Network,Low,Low
+153,CVE-2020-0638,Conti,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2020,Local,Low,Medium
+154,CVE-2020-0688,"Conti, Egregor, IsaacWiper, Maze",CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2020,Network,Low,Medium
+155,CVE-2020-0787,"Conti, LockBit, Nokoyawa",CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2020,Local,Low,Medium
+156,CVE-2020-0796,"BlueSky, Buran, Conti, Netwalker (MailTo), Petya, Zeppelin",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H,CRITICAL,2020,Network,Low,Low
+157,CVE-2020-0968,Magniber,CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2020,Network,High,Low
+158,CVE-2020-1210,Zeppelin,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2020,Network,Low,Medium
+159,CVE-2020-12271,Unidentified,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2020,Network,Low,Low
+160,CVE-2020-12812,"Hive, Play",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2020,Network,Low,Low
+161,CVE-2020-13671,Ryuk,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2020,Network,Low,Medium
+162,CVE-2020-1472,"Babuk, DarkSide, Black Basta, Clop, Conti, CryptoMix, Cuba, Epsilon Red, REvil (Sodinokibi), Ryuk, Thanos",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H,CRITICAL,2020,Network,Low,Low
+163,CVE-2020-14882,Unidentified,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2020,Network,Low,Low
+164,CVE-2020-16875,Zeppelin,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,HIGH,2020,Network,Low,High
+165,CVE-2020-16896,"Egregor, Maze, REvil (Sodinokibi)",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2020,Network,Low,Low
+166,CVE-2020-17144,IsaacWiper,CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H,HIGH,2020,Network,Low,High
+167,CVE-2020-2021,REvil (Sodinokibi),CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H,CRITICAL,2020,Network,Low,Low
+168,CVE-2020-2509,"Qlocker, QNAPCrypt ",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2020,Network,Low,Low
+169,CVE-2020-28949,Ryuk,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2020,Local,Low,Low
+170,CVE-2020-3153,OldGremlin,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:N,MEDIUM,2020,Local,Low,Medium
+171,CVE-2020-3433,OldGremlin,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2020,Local,Low,Medium
+172,CVE-2020-36193,Ryuk,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N,HIGH,2020,Network,Low,Low
+173,CVE-2020-36195,"GandCrab, Qlocker, QNAPCrypt, Ryuk",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2020,Network,Low,Low
+174,CVE-2020-36198,Unidentified,CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,MEDIUM,2020,Local,Low,High
+175,CVE-2020-3992,"Darkside, ESXiArgs",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2020,Network,Low,Low
+176,CVE-2020-5135,Babuk,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2020,Network,Low,Low
+177,CVE-2020-5902,"Pay2Key, REvil (Sodinokibi)",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2020,Network,Low,Low
+178,CVE-2020-8195,Unidentified,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N,MEDIUM,2020,Network,Low,Medium
+179,CVE-2020-8196,Unidentified,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N,MEDIUM,2020,Network,Low,Medium
+180,CVE-2020-8243,Unidentified,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,HIGH,2020,Network,Low,High
+181,CVE-2020-8260,Unidentified,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,HIGH,2020,Network,Low,High
+182,CVE-2020-8269,Nefilim (Nemty),CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2020,Network,Low,Medium
+183,CVE-2020-8270,Nefilim (Nemty),CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2020,Network,Low,Medium
+184,CVE-2020-8283,Nefilim (Nemty),CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2020,Network,Low,Medium
+185,CVE-2021-0604,Unidentified,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N,MEDIUM,2021,Local,Low,Low
+186,CVE-2021-1636,HermeticWiper,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Network,Low,Medium
+187,CVE-2021-1675,"Conti, LockFile, Magniber, Ransom Cartel, Vice Society",CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2021,Network,Low,Low
+188,CVE-2021-1732,"BlueSky, Conti",CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Local,Low,Medium
+189,CVE-2021-20016,"DarkSide, HelloKitty (FiveHands)",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+190,CVE-2021-20021,HelloKitty (FiveHands),CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+191,CVE-2021-20022,HelloKitty (FiveHands),CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Network,Low,High
+192,CVE-2021-20023,HelloKitty (FiveHands),CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N,MEDIUM,2021,Network,Low,High
+193,CVE-2021-20028,LockBit,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+194,CVE-2021-20038,"H0lyGh0st, Maui",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+195,CVE-2021-20655,Unidentified,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Network,Low,High
+196,CVE-2021-21972,"Conti, Memento",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+197,CVE-2021-21974,ESXiArgs,CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Ajacent network,Low,Low
+198,CVE-2021-21985,Conti,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+199,CVE-2021-22005,Conti,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+200,CVE-2021-22205,Cerber,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+201,CVE-2021-22893,Unidentified,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+202,CVE-2021-22941,Unidentified,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+203,CVE-2021-22986,LockBit,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+204,CVE-2021-26084,"AtomSilo, Cerber, Khonsari, LockFile, Night Sky, Rook",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+205,CVE-2021-26085,Unidentified,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N,MEDIUM,2021,Network,Low,Low
+206,CVE-2021-26411,"Cerber, Magniber",CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2021,Network,High,Low
+207,CVE-2021-26855,"AvosLocker, Black Kingdom, Conti, DearCry, Epsilon Red, HermeticWiper, Hive, HomeLand Justice, Nemesis Kitten ",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+208,CVE-2021-26857,"Black Kingdom, DearCry, Nemesis Kitten",CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2021,Local,Low,Low
+209,CVE-2021-26858,"Black Kingdom, DearCry, Nemesis Kitten",CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2021,Local,Low,Low
+210,CVE-2021-27065,"Babuk, BlackByte, Black Kingdom, DearCry, Epsilon Red, Hive, Nemesis Kitten",CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2021,Local,Low,Low
+211,CVE-2021-27101,"Clop, CryptoMix",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+212,CVE-2021-27102,"Clop, CryptoMix",CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Local,Low,Medium
+213,CVE-2021-27103,"Clop, CryptoMix",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+214,CVE-2021-27104,"Clop, CryptoMix",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+215,CVE-2021-27876,BlackCat (ALPHV),CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N,HIGH,2021,Network,Low,Medium
+216,CVE-2021-27877,BlackCat (ALPHV),CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+217,CVE-2021-27878,BlackCat (ALPHV),CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Network,Low,Medium
+218,CVE-2021-28799,"eCh0raix, Qlocker",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+219,CVE-2021-30116,REvil (Sodinokibi),CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+220,CVE-2021-30117,REvil (Sodinokibi),CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Network,Low,Medium
+221,CVE-2021-30118,REvil (Sodinokibi),CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+222,CVE-2021-30119,REvil (Sodinokibi),CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N,MEDIUM,2021,Network,Low,Medium
+223,CVE-2021-30120,REvil (Sodinokibi),CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N,HIGH,2021,Network,Low,Low
+224,CVE-2021-30121,REvil (Sodinokibi),CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N,MEDIUM,2021,Network,Low,Medium
+225,CVE-2021-31166,Unidentified,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+226,CVE-2021-31206,AvosLocker,CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2021,Ajacent network,Low,Low
+227,CVE-2021-31207,"AvosLocker, Babuk, BianLian, BitLock, BlackByte, BlackCat (ALPHV), Conti, HermeticWiper, Hive, Karma, LockFile, LV",CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Network,Low,High
+228,CVE-2021-32648,WhisperGate,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N,CRITICAL,2021,Network,Low,Low
+229,CVE-2021-33558,Hive,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2021,Network,Low,Low
+230,CVE-2021-34473,"AtomSilo, Avoslocker, Babuk, BianLian, BlackByte, BlackCat (ALPHV), Conti, HermeticWiper, Night Sky, Hive, Karma, Khonsari, LockBit, LockFile, LV, Rook
+",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+231,CVE-2021-34523,"AvosLocker, Babuk, BianLian, BlackByte, BlackCat (ALPHV), BitLock, Conti, HermeticWiper, Hive, Karma, LockFile, LV",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+232,CVE-2021-34527,"Black Basta, Cerber, Conti, Magniber, Ransom Cartel, Vice Society ",CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Network,Low,Medium
+233,CVE-2021-34730,Unidentified,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+234,CVE-2021-35211,"Clop, CryptoMix",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+235,CVE-2021-36942,"Conti, LockFile ",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N,MEDIUM,2021,Network,Low,Low
+236,CVE-2021-38647,Unidentified,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+237,CVE-2021-40438,Ryuk,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H,CRITICAL,2021,Network,High,Low
+238,CVE-2021-40444,"Cerber, Conti, Diavol, Magniber",CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2021,Local,Low,Low
+239,CVE-2021-40449,Unidentified,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Local,Low,Medium
+240,CVE-2021-40539,"AvosLocker, Cerber, Trigona",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+241,CVE-2021-41773,Stave,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2021,Network,Low,Low
+242,CVE-2021-42013,"Lorenz, Stave ",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+243,CVE-2021-42258,Unidentified,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+244,CVE-2021-42278,"Black Basta, Conti",CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Network,Low,Medium
+245,CVE-2021-42287,"Black Basta, Conti",CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Network,Low,Medium
+246,CVE-2021-42321,Hive,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2021,Network,Low,Medium
+247,CVE-2021-44228,"AvosLocker, Cheerscrypt, Conti, Khonsari, Memento, NightSky, TellYouThePass, WhisperGate",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H,CRITICAL,2021,Network,Low,Low
+248,CVE-2021-44832,AvosLocker,CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H,MEDIUM,2021,Network,High,High
+249,CVE-2021-45046,AvosLocker,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H,CRITICAL,2021,Network,High,Low
+250,CVE-2021-45105,AvosLocker,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H,MEDIUM,2021,Network,High,Low
+251,CVE-2022-0215,WhisperGate,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2022,Network,Low,Low
+252,CVE-2022-21969,LockBit,CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H,CRITICAL,2022,Ajacent network,Low,Medium
+253,CVE-2022-22279,LockBit,CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N,MEDIUM,2022,Network,Low,High
+254,CVE-2022-22954,"AvosLocker, BigBossHorse, RAR1Ransom, Satan",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2022,Network,Low,Low
+255,CVE-2022-23181,HermeticWiper,CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2022,Local,High,Medium
+256,CVE-2022-24521,"Cuba, Nokoyawa, Vice Society",CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2022,Local,Low,Medium
+257,CVE-2022-24990,"H0lyGh0st, Maui",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2022,Network,Low,Low
+258,CVE-2022-26134,"AvosLocker, Cerber, CryptoMix",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2022,Network,Low,Low
+259,CVE-2022-26138,"AvosLocker, Cerber",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2022,Network,Low,Low
+260,CVE-2022-26352,H0lyGh0st,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2022,Network,Low,Low
+261,CVE-2022-26500,AvosLocker,CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2022,Network,Low,Medium
+262,CVE-2022-26501,AvosLocker,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2022,Network,Low,Low
+263,CVE-2022-27510,Royal,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2022,Network,Low,Low
+264,CVE-2022-27593,DeadBolt,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H,CRITICAL,2022,Network,Low,Low
+265,CVE-2022-29499,Lorenz,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2022,Network,Low,Low
+266,CVE-2022-30190,"Bisamware, Black Basta",CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2022,Local,Low,Low
+267,CVE-2022-31199,Clop,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2022,Network,Low,Low
+268,CVE-2022-36537,LockBit,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2022,Network,Low,Low
+269,CVE-2022-37969,Nokoyawa,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2022,Local,Low,Medium
+270,CVE-2022-41040,"LockBit, Play",CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2022,Network,Low,Medium
+271,CVE-2022-41073,LocKBit,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2022,Local,Low,Medium
+272,CVE-2022-41080,"Cuba, Hive, Play",CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2022,Network,Low,Medium
+273,CVE-2022-41082,"Hive, Play ",CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2022,Network,Low,Medium
+274,CVE-2022-41091,"LocKBit, Magniber",CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L,MEDIUM,2022,Network,Low,Low
+275,CVE-2022-41125,LocKBit,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2022,Local,Low,Medium
+276,CVE-2022-41128,LocKBit,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2022,Network,Low,Low
+277,CVE-2022-44698,Magniber,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L,MEDIUM,2022,Network,Low,Low
+278,CVE-2022-47966,Buhti,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2022,Network,Low,Low
+279,CVE-2022-47986,"Buhti, IceFire",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2022,Network,Low,Low
+280,CVE-2023-0669,"Clop, CryptoMix, BlackCat (ALPHV)",CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H,HIGH,2023,Network,Low,High
+281,CVE-2023-2033,Nokoyawa,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2023,Network,Low,Low
+282,CVE-2023-21674,Play ,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H,HIGH,2023,Local,Low,Medium
+283,CVE-2023-23376,Nokoyawa,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2023,Local,Low,Medium
+284,CVE-2023-24880,"Cerber, Magniber",CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L,MEDIUM,2023,Local,Low,Low
+285,CVE-2023-27350,"Bl00dy, Buhti, Clop, LockBit",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2023,Network,Low,Low
+286,CVE-2023-27351,"Clop, LockBit",CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2023,Network,Low,Low
+287,CVE-2023-27532,BlackBasta,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N,HIGH,2023,Network,Low,Low
+288,CVE-2023-28206,Nokoyawa,CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H,HIGH,2023,Local,Low,Low
+289,CVE-2023-28252,Nokoyawa,CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H,HIGH,2023,Local,Low,Medium
+290,CVE-2023-3079,Clop,CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H,HIGH,2023,Network,Low,Low
+291,CVE-2023-34362,Clop,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2023,Network,Low,Low
+292,CVE-2023-35036,Clop,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N,CRITICAL,2023,Network,Low,Low
+293,CVE-2023-35708,Clop,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,CRITICAL,2023,Network,Low,Low

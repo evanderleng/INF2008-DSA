@@ -68,6 +68,48 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
+                2. Factors
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="{{url_for('Factor',types='Top3')}}"
+                    >Top 3 Attack Combinations by year</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="{{url_for('Factor',types='Vector')}}"
+                    >Attack Vectors used by year</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="{{url_for('Factor',types='Complexity')}}"
+                    >Attack Complexity by year</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="{{url_for('Factor',types='Privilege required')}}"
+                    >Priviledges Required for attacks by year</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 3. Targeted Industries
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">

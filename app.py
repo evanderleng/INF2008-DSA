@@ -4,12 +4,20 @@ import plotly.graph_objects as go
 import plotly.io as pio
 import pandas as pd
 
+from attackvectors import Vectors
+
 app = Flask(__name__) 
 
 # GET RANSOMWARE GROUPS
 # Load the data
 ransomware_group_counts = pd.read_csv('filteredRansomwareData.csv')
 top_groups_by_year = pd.read_csv('topThreeGroupsPerYear.csv')
+
+vector_filtered = pd.read_csv("vectorfiltered.csv")
+vector_class = Vectors()
+
+
+
 # Create the Plotly graphs
 fig_all = go.Figure()
 for group in ransomware_group_counts['Ransomware_Group'].unique():
@@ -44,21 +52,42 @@ top_3_per_year = data_melted.groupby('Year').apply(lambda x: x.nlargest(3, 'Perc
 @app.route('/') 
 def index(): 
 	return render_template('index.html') 
+@app.errorhandler(404)
+def rdr(e):
+    return redirect("/")
 
 # RANSOMWARE GROUPS BY NUMBER OF ATTACKS GRAPHS
-@app.route('/ransomwareGroups')
+@app.route('/ransomwareGroups/')
 def ransomwareGroups():
     graph_html = pio.to_html(fig_all, full_html=False)
     return render_template('groups.html', plot=graph_html)
 
-@app.route('/top3Groups')
+@app.route('/top3Groups/')
 def top3Groups():
     graph_html = pio.to_html(fig_top3, full_html=False)
     return render_template('groups.html', plot=graph_html)
 
+@app.route("/Factor/")
+def Factorrdr():
+    return redirect("/Factor/Vector")
+@app.route('/Factor/<string:types>/')
+def Factor(types=None):
+    accepted_types = ["Vector","Complexity","Privilege required","Top3"]
+    if types not in accepted_types or types is None:
+        types = "Vector"
+    if types == "Top3":
+        figure = vector_class.generate_common_vector_string(vector_filtered)
+        graph_html = figure.to_html(full_html=False)
+        return render_template('FactorTop3.html', plot=graph_html)
+    
+    figure = vector_class.generate_graph_by_year(vector_filtered,types)
+    graph_html = pio.to_html(figure, full_html=False)
+    return render_template('groups.html', plot=graph_html)
+
+
 
 # RANSOMWARE ATTACKS ON DIFFERENT INDUSTRIES GRAPHS
-@app.route('/industriesOverYears') 
+@app.route('/industriesOverYears/') 
 def industriesOverYears(): 
 	# Create the Plotly figure
     fig = px.line(data_melted, x='Year', y='Percentage', color='Industry', title='Targeted Industries By Year')
@@ -71,7 +100,7 @@ def industriesOverYears():
     # Render the HTML with the Plotly graph
     return render_template('industries.html', graph_html=graph_html)
 
-@app.route('/top3IndustriesOverYears')
+@app.route('/top3IndustriesOverYears/')
 def top3IndustriesOverYears():
     # Create the Plotly figure
     fig = px.bar(top_3_per_year, x='Year', y='Percentage', color='Industry', title='Top 3 Targeted Industries By Year')
@@ -83,6 +112,8 @@ def top3IndustriesOverYears():
 
     # Render the HTML with the Plotly graph
     return render_template('industries.html', graph_html=graph_html)
+
+
 
 if __name__ == '__main__': 
 	app.run(debug=True)
