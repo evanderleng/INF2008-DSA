@@ -68,6 +68,34 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
+                1. Ransomware Gangs
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="{{url_for('gang_CVE_association')}}"
+                    >Ransomware Gangs and their associated CVEs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="{{url_for('gang_vendor_association')}}"
+                    >Ransomware Gangs and their associated vendors and vulnerabilites</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 2. Factors
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
