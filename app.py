@@ -100,6 +100,39 @@ def top3IndustriesOverYears():
     # Render the HTML with the Plotly graph
     return render_template('industries.html', graph_html=graph_html)
 
+@app.route('/gang_CVE_association/')
+def gang_CVE_association():
+    df = pd.read_csv('./ransomware_csv.csv')
+    df = df.iloc[:,:-2]
+    df['Ransomware Group Association'] = df['Ransomware Group Association'].str.split(',', expand=False)
+    df = df.explode('Ransomware Group Association')
+    
+    df_sorted = df.sort_values(by='CVE ID')
+    fig = px.scatter(df_sorted, x='CVE ID', y='Ransomware Group Association', width=1920, height = 1080,
+             title='Ransomware gang',
+             labels={'Ransomware': 'Ransomware Name'})
+    graph_html = fig.to_html(full_html=False)
+    return render_template('gang.html', graph_html=graph_html)
+
+@app.route('/gang_vendor_association/')
+def gang_vendor_association():
+    df = pd.read_csv('./ransomware_csv.csv')
+    df = df.iloc[:,:-2]
+    df['Ransomware Group Association'] = df['Ransomware Group Association'].str.split(',', expand=False)
+    df = df.explode('Ransomware Group Association')
+    
+    df2 = pd.read_csv('./known_exploited_vulnerabilities.csv')
+    df2 = df2.rename(columns={'cveID': 'CVE ID', "vendorProject": 'vendor'})
+    df2["vulnerability Info"] = df2[['CVE ID', 'vulnerabilityName']].agg(" ".join, axis=1)
+    
+    df3 = df.merge(df2, on='CVE ID', how='inner', suffixes=('_1', '_2'))
+    df3 = df3[['Ransomware Group Association', 'vendor','vulnerability Info']]
+    
+    fig = px.scatter(df3, x='vendor',  y='Ransomware Group Association', color="vulnerability Info", width=1920, height = 1080,
+             title='Ransomware gangs and their associated vendors and TTP attack vectors')
+    graph_html = fig.to_html(full_html=True)
+    return render_template('gang.html', graph_html=graph_html)
+
 
 if __name__ == '__main__': 
 	app.run(debug=True)
