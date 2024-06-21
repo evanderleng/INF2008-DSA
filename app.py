@@ -85,7 +85,7 @@ def industriesOverYears():
     graph_html = fig.to_html(full_html=False)
 
     # Render the HTML with the Plotly graph
-    return render_template('industries.html', graph_html=graph_html)
+    return render_template('graphHTML.html', graph_html=graph_html)
 
 @app.route('/top3IndustriesOverYears/')
 def top3IndustriesOverYears():
@@ -98,8 +98,10 @@ def top3IndustriesOverYears():
     graph_html = fig.to_html(full_html=False)
 
     # Render the HTML with the Plotly graph
-    return render_template('industries.html', graph_html=graph_html)
+    return render_template('graphHTML.html', graph_html=graph_html)
 
+
+# GANG AND THEIR CVES AND VECTOR GRAPHS 
 @app.route('/gang_CVE_association/')
 def gang_CVE_association():
     df = pd.read_csv('./ransomware_csv.csv')
@@ -112,7 +114,7 @@ def gang_CVE_association():
              title='Ransomware gang',
              labels={'Ransomware': 'Ransomware Name'})
     graph_html = fig.to_html(full_html=False)
-    return render_template('gang.html', graph_html=graph_html)
+    return render_template('graphHTML.html', graph_html=graph_html)
 
 @app.route('/gang_vendor_association/')
 def gang_vendor_association():
@@ -131,7 +133,7 @@ def gang_vendor_association():
     fig = px.scatter(df3, x='vendor',  y='Ransomware Group Association', color="vulnerability Info", width=1920, height = 1080,
              title='Ransomware gangs and their associated vendors and TTP attack vectors')
     graph_html = fig.to_html(full_html=True)
-    return render_template('gang.html', graph_html=graph_html)
+    return render_template('graphHTML.html', graph_html=graph_html)
 
 
 if __name__ == '__main__': 
