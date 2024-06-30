@@ -1,192 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
-
-    <!--Bootstrap JS-->
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
-
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        margin: 20px;
-      }
-      h1,
-      h2,
-      h3 {
-        color: #333;
-      }
-      .section {
-        margin-bottom: 40px;
-      }
-      a {
-        color: #1a73e8;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="{{url_for('index')}}">Home</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                1. Ransomware Gangs
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="{{url_for('gang_CVE_association')}}"
-                    >Ransomware Gangs and their associated CVEs</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="{{url_for('gang_vendor_association')}}"
-                    >Ransomware Gangs and their associated vendors and vulnerabilites</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                2. Factors
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="{{url_for('Factor',types='Top3')}}"
-                    >Top 3 Attack Combinations by year</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="{{url_for('Factor',types='Vector')}}"
-                    >Attack Vectors used by year</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="{{url_for('Factor',types='Complexity')}}"
-                    >Attack Complexity by year</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="{{url_for('Factor',types='Privilege required')}}"
-                    >Priviledges Required for attacks by year</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                3. Targeted Industries
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="{{url_for('industriesOverYears')}}"
-                    >Ransomware Attacks On Different Industries</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="{{url_for('top3IndustriesOverYears')}}"
-                    >Top 3 Industries Targeted By Year</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                4. Ransomware Groups
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="{{url_for('ransomwareGroups')}}"
-                    >Ransomware Groups By Activities</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="{{url_for('top3Groups')}}"
-                    >Top 3 ransomware Group Attacks By Year</a
-                  >
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+    crossorigin="anonymous"
+  />
+  <!-- Bootstrap JS -->
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"
+  ></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+    h1,
+    h2,
+    h3 {
+      color: #333;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    a {
+      color: #1a73e8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="{{ url_for('index') }}">Home</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              1. Ransomware Gangs
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="{{ url_for('gang_CVE_association') }}"
+                  >Ransomware Gangs and their associated CVEs</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="{{ url_for('gang_vendor_association') }}"
+                  >Ransomware Gangs and their associated vendors and vulnerabilities</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              2. Factors
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="{{ url_for('Factor', types='Top3') }}"
+                  >Top 3 Attack Combinations by year</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="{{ url_for('Factor', types='Vector') }}"
+                  >Attack Vectors used by year</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="{{ url_for('Factor', types='Complexity') }}"
+                  >Attack Complexity by year</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="{{ url_for('Factor', types='Privilege required') }}"
+                  >Privileges Required for attacks by year</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              3. Targeted Industries
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="{{ url_for('industriesOverYears') }}"
+                  >Ransomware Attacks On Different Industries</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="{{ url_for('top3IndustriesOverYears') }}"
+                  >Top 3 Industries Targeted By Year</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              4. Ransomware Groups
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="{{ url_for('ransomwareGroups') }}"
+                  >Ransomware Groups By Activities</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="{{ url_for('top3Groups') }}"
+                  >Top 3 Ransomware Group Attacks By Year</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('ransomwareTrend') }}">
+              5. Ransomware Attack Trend Comparison
+            </a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    {% block content %} {% endblock %}
-  </body>
+    </div>
+  </nav>
+  {% block content %}
+  {% endblock %}
+</body>
 </html>
