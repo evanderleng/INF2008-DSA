@@ -1,4 +1,4 @@
-# INF2008-DSA
+# INF1008-DSA
 ## Installation and usage
 Install dependancies:
 ```pip install -r requirements.txt```
