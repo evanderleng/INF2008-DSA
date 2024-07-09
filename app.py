@@ -12,8 +12,8 @@ from industriesTargeted import process_industry_data
 app = Flask(__name__)
 
 # GET RANSOMWARE GROUPS
-ransomware_group_counts = pd.read_csv('filteredRansomwareData.csv')
-top_groups_by_year = pd.read_csv('topThreeGroupsPerYear.csv')
+ransomware_group_counts = pd.read_csv('CSV/filteredRansomwareData.csv')
+top_groups_by_year = pd.read_csv('CSV/topThreeGroupsPerYear.csv')
 
 # Calculate the total number of ransomware attacks for each year
 total_attacks_per_year = ransomware_group_counts.groupby('Year')['Frequency'].sum().reset_index()
@@ -46,11 +46,11 @@ fig_trend.add_trace(go.Scatter(x=future_years.flatten(), y=predicted_attacks, mo
 fig_trend.update_layout(title='Ransomware Attacks Trend', xaxis_title='Year', yaxis_title='Total Attacks', legend_title='Legend')
 
 # GET RANSOMWARE VECTORS
-vector_filtered = pd.read_csv("vectorfiltered.csv")
+vector_filtered = pd.read_csv("CSV/vectorfiltered.csv")
 vector_class = Vectors()
 
 # GET RANSOMWARE TARGETED INDUSTRIES
-data_melted, top_3_per_year = process_industry_data('attacksByIndustry.xlsx')
+data_melted, top_3_per_year = process_industry_data('CSV/attacksByIndustry.xlsx')
 
 # Create the Plotly graphs
 fig_all = go.Figure()
@@ -134,7 +134,7 @@ def top3IndustriesOverYears():
 # GANG AND THEIR CVES AND VECTOR GRAPHS
 @app.route('/gang_CVE_association/')
 def gang_CVE_association():
-    df = pd.read_csv('./ransomware_csv.csv')
+    df = pd.read_csv('CSV/ransomware_csv.csv')
     df = df.iloc[:, :-2]
     df['Ransomware Group Association'] = df['Ransomware Group Association'].str.split(',', expand=False)
     df = df.explode('Ransomware Group Association')
@@ -148,12 +148,12 @@ def gang_CVE_association():
 
 @app.route('/gang_vendor_association/')
 def gang_vendor_association():
-    df = pd.read_csv('./ransomware_csv.csv')
+    df = pd.read_csv('CSV/ransomware_csv.csv')
     df = df.iloc[:, :-2]
     df['Ransomware Group Association'] = df['Ransomware Group Association'].str.split(',', expand=False)
     df = df.explode('Ransomware Group Association')
 
-    df2 = pd.read_csv('./known_exploited_vulnerabilities.csv')
+    df2 = pd.read_csv('CSV/known_exploited_vulnerabilities.csv')
     df2 = df2.rename(columns={'cveID': 'CVE ID', "vendorProject": 'vendor'})
     df2["vulnerability Info"] = df2[['CVE ID', 'vulnerabilityName']].agg(" ".join, axis=1)
 

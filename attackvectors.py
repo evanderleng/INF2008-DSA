@@ -111,7 +111,7 @@ class Vectors:
 if __name__ == "__main__":
     # Generate attack vector specific csv data
     vectors = Vectors()
-    mainCVE = pd.read_excel('SIT cve\CVE_Data from NVD database obtained on 08 July 2023.xlsx', sheet_name='Sheet1')
-    sitRansomwareCVE = pd.read_excel('SIT cve\SIT Ransomware CVE List.xlsx', sheet_name='Sheet1')
+    mainCVE = pd.read_excel('CSV/SIT cve/CVE_Data from NVD database obtained on 08 July 2023.xlsx', sheet_name='Sheet1')
+    sitRansomwareCVE = pd.read_excel('CSV/SIT cve/SIT Ransomware CVE List.xlsx', sheet_name='Sheet1')
     filtered_df = vectors.filter_df_data(mainCVE,sitRansomwareCVE)
-    filtered_df.to_csv("vectorfiltered.csv")
+    filtered_df.to_csv("CSV/vectorfiltered.csv")
