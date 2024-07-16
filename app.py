@@ -117,14 +117,10 @@ def gang_CVE_association():
     df = df.iloc[:, :-2]
     df['Ransomware Group Association'] = df['Ransomware Group Association'].str.split(',', expand=False)
     df = df.explode('Ransomware Group Association')
-    
     year = []    
     for values in df['CVE ID']:
         year.append(re.search(r"""^CVE-(\d{4})-\d{1,}""", values).group(1))
-        
     df['year'] = year
-    
-
     df_sorted = df.sort_values(by='CVE ID')
     fig = px.scatter(df_sorted, x='CVE ID', y='Ransomware Group Association', color = 'year', width=1920, height=1080,
                      title='Ransomware gang',
